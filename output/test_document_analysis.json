@@ -1,0 +1,526 @@
+{
+  "document_name": "测试文档（原始）",
+  "paragraphs": [
+    {
+      "paragraph_index": 1,
+      "text_preview": "新质生产力对区域碳排放影响的空间效应研究兼对杰文斯悖论的再验证",
+      "style_name": "Heading 1",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "新质生产力对区域碳排放影响的空间效应研究兼对杰文斯悖论的再验...",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        }
+      ],
+      "has_run_formatting": false
+    },
+    {
+      "paragraph_index": 2,
+      "text_preview": "本文基于2009—2021年251个地级市的面板数据，在传统的IPAT模型基础上进行拓展，引入无残差...",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "本文基于2009—2021年251个地级市的面板数据，",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 2,
+          "text_preview": "在传统的IPAT模型基础上进行拓展，引入无残差完全分解模型，...",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 3,
+          "text_preview": "，",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 4,
+          "text_preview": "对全国及七大城市群碳排放的反弹效应进行拆解",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 5,
+          "text_preview": "。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 6,
+          "text_preview": "分解结果显示，影响我国碳排放增加的主要因素是财富规模效应和新...",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 7,
+          "text_preview": "。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 8,
+          "text_preview": "此外，",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 9,
+          "text_preview": "采用传统固定效应面板回归和空间杜宾模型，从全国范围以及七大城...",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 10,
+          "text_preview": "、",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 11,
+          "text_preview": "中原城市群碳排放水平具有显著负向作用，表明杰文斯悖论不成立；...",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 12,
+          "text_preview": "长江中游城市群、",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        },
+        {
+          "run_index": 13,
+          "text_preview": "成渝城市群、哈长城市群碳排放水平的作用显著性不足。本文研究结...",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        }
+      ],
+      "has_run_formatting": false
+    },
+    {
+      "paragraph_index": 3,
+      "text_preview": "一、引言及文献综述",
+      "style_name": "Heading 2",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "一、引言及文献综述",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        }
+      ],
+      "has_run_formatting": false
+    },
+    {
+      "paragraph_index": 4,
+      "text_preview": "2023年9月习近平总书记在黑龙江考察调研期间首次提出新质生产力的概念。新质生产力区别于传统生产力，...",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "2023年9月习近平总书记在黑龙江考察调研期间首次提出新质生...",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        }
+      ],
+      "has_run_formatting": false
+    },
+    {
+      "paragraph_index": 5,
+      "text_preview": "理论假说",
+      "style_name": "Heading 2",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "理论假说",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        }
+      ],
+      "has_run_formatting": false
+    },
+    {
+      "paragraph_index": 6,
+      "text_preview": "杰文斯效应的经验验证——基于拓展IPAT模型的反弹效应研究",
+      "style_name": "Heading 3",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "杰文斯效应的经验验证——基于拓展IPAT模型的反弹效应研究",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        }
+      ],
+      "has_run_formatting": false
+    },
+    {
+      "paragraph_index": 7,
+      "text_preview": "1970年学术界围绕环境问题的根源，展开了“人口—技术”之争，Ehrlich、Holdren等学者提...",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "1970年学术界围绕环境问题的根源，展开了“人口—技术”之争...",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        }
+      ],
+      "has_run_formatting": true
+    },
+    {
+      "paragraph_index": 8,
+      "text_preview": "但随着经济发展和社会对环境保护的重视，技术的目标不再单一地服务于生产力提高，越来越的技术进步体现在环...",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "但随着经济发展和社会对环境保护的重视，技术的目标不再单一地服...",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        }
+      ],
+      "has_run_formatting": true
+    },
+    {
+      "paragraph_index": 10,
+      "text_preview": "新质生产力的提高会对全国碳排放水平产生加强作用",
+      "style_name": "Heading 3",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "新质生产力的提高会对全国碳排放水平产生加强作用",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        }
+      ],
+      "has_run_formatting": false
+    },
+    {
+      "paragraph_index": 11,
+      "text_preview": "新质生产力提升的实现路径包括技术创新、生产要素优化配置、产业转型升级等多种路径。从马克思主义生产力理...",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "新质生产力提升的实现路径包括技术创新、生产要素优化配置、产业...",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        }
+      ],
+      "has_run_formatting": true
+    },
+    {
+      "paragraph_index": 12,
+      "text_preview": "因此，本文提出：",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "因此，本文提出：",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        }
+      ],
+      "has_run_formatting": true
+    },
+    {
+      "paragraph_index": 13,
+      "text_preview": "假设1：从全国范围看，新质生产力一定程度上将提高碳排放水平，符合杰文斯悖论。",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "假设1：从全国范围看，新质生产力一定程度上将提高碳排放水平，...",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        }
+      ],
+      "has_run_formatting": true
+    },
+    {
+      "paragraph_index": 14,
+      "text_preview": "由于地区经济发展差异，新质生产力对碳排放水平的影响存在空间差异",
+      "style_name": "Heading 3",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "由于地区经济发展差异，新质生产力对碳排放水平的影响存在空间差...",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {}
+        }
+      ],
+      "has_run_formatting": false
+    },
+    {
+      "paragraph_index": 15,
+      "text_preview": "新经济地理学认为，地理位置相关的地区的经济数据往往会相互影响。一个地区的经济活动会对周围地区的经济活...",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "新经济地理学认为，地理位置相关的地区的经济数据往往会相互影响...",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        },
+        {
+          "run_index": 2,
+          "text_preview": "丘陵等多种地貌，各地区地理环境、地貌特征差异巨大，这奠定了不...",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        }
+      ],
+      "has_run_formatting": true
+    },
+    {
+      "paragraph_index": 16,
+      "text_preview": "因此，本文提出：",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "因此，本文提出：",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        }
+      ],
+      "has_run_formatting": true
+    },
+    {
+      "paragraph_index": 17,
+      "text_preview": "假设2：新质生产力对于区域碳排放水平的影响存在差异性，同时也存在一定规律性。",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "run_index": 1,
+          "text_preview": "假设2：新质生产力对于区域碳排放水平的影响存在差异性，同时也...",
+          "font_info": {
+            "name": "华文楷体",
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null
+          },
+          "xml_font_info": {
+            "ascii": "华文楷体",
+            "hAnsi": "华文楷体",
+            "eastAsia": "华文楷体",
+            "cs": "华文楷体"
+          }
+        }
+      ],
+      "has_run_formatting": true
+    }
+  ]
+}

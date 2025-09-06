@@ -1,0 +1,379 @@
+{
+  "analysis_result": {
+    "document_path": "格式模板.docx",
+    "styles_analysis": {
+      "Normal": {
+        "style_name": "Normal",
+        "font_info": {
+          "name": "Times New Roman",
+          "size": null,
+          "bold": null,
+          "italic": null
+        },
+        "spacing_info": {
+          "alignment": "两端对齐"
+        }
+      },
+      "Heading 1": {
+        "style_name": "Heading 1",
+        "font_info": {
+          "name": "Arial Unicode MS",
+          "size": "16.0pt",
+          "bold": true,
+          "italic": null
+        },
+        "spacing_info": {
+          "line_spacing": {
+            "value": "2.4",
+            "description": "多倍行距 (2.4)"
+          },
+          "space_before": "17.0pt",
+          "space_after": "16.5pt",
+          "alignment": "居中对齐"
+        }
+      },
+      "Heading 2": {
+        "style_name": "Heading 2",
+        "font_info": {
+          "name": "Arial",
+          "size": "12.0pt",
+          "bold": true,
+          "italic": null
+        },
+        "spacing_info": {
+          "line_spacing": {
+            "value": "1.7208333333333334",
+            "description": "多倍行距 (1.7208333333333334)"
+          },
+          "space_before": "13.0pt",
+          "space_after": "13.0pt",
+          "alignment": "居中对齐"
+        }
+      },
+      "Heading 3": {
+        "style_name": "Heading 3",
+        "font_info": {
+          "name": null,
+          "size": "11.0pt",
+          "bold": true,
+          "italic": null
+        },
+        "spacing_info": {
+          "first_line_indent": "22.1pt"
+        }
+      },
+      "Heading 4": {
+        "style_name": "Heading 4",
+        "font_info": {
+          "name": null,
+          "size": null,
+          "bold": true,
+          "italic": true
+        },
+        "spacing_info": {
+          "left_indent": "0.0pt"
+        }
+      },
+      "Body Text First Indent 2": {
+        "style_name": "Body Text First Indent 2",
+        "font_info": {
+          "name": null,
+          "size": null,
+          "bold": null,
+          "italic": null
+        },
+        "spacing_info": {
+          "first_line_indent": "21.0pt"
+        }
+      },
+      "Body Text Indent": {
+        "style_name": "Body Text Indent",
+        "font_info": {
+          "name": null,
+          "size": null,
+          "bold": null,
+          "italic": null
+        },
+        "spacing_info": {
+          "space_after": "6.0pt",
+          "left_indent": "21.0pt"
+        }
+      },
+      "annotation text": {
+        "style_name": "annotation text",
+        "font_info": {
+          "name": null,
+          "size": null,
+          "bold": null,
+          "italic": null
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "Footer": {
+        "style_name": "Footer",
+        "font_info": {
+          "name": null,
+          "size": "9.0pt",
+          "bold": null,
+          "italic": null
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "footnote text": {
+        "style_name": "footnote text",
+        "font_info": {
+          "name": null,
+          "size": "9.0pt",
+          "bold": null,
+          "italic": null
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "HTML Preformatted": {
+        "style_name": "HTML Preformatted",
+        "font_info": {
+          "name": "宋体",
+          "size": "12.0pt",
+          "bold": null,
+          "italic": null
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "Normal (Web)": {
+        "style_name": "Normal (Web)",
+        "font_info": {
+          "name": null,
+          "size": null,
+          "bold": null,
+          "italic": null
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "style_1": {
+        "style_name": "style_1",
+        "font_info": {
+          "name": null,
+          "size": "36.0pt",
+          "bold": true,
+          "italic": null
+        },
+        "spacing_info": {
+          "first_line_indent": "72.3pt",
+          "left_indent": "0.0pt"
+        }
+      }
+    },
+    "paragraphs_analysis": [
+      {
+        "paragraph_index": 1,
+        "text_preview": "社会信用环境对地区投资吸引力的影响——基于门槛效应模型的实证分析",
+        "style_name": "Heading 1",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 3,
+        "text_preview": "引言",
+        "style_name": "Heading 2",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 4,
+        "text_preview": "在我国从高速发展向高质量发展的背景下，社会信用环境最为重要的制度性要素，已经成为区域强化本地投资依赖...",
+        "style_name": "Normal",
+        "actual_spacing": {
+          "alignment": "左对齐"
+        }
+      },
+      {
+        "paragraph_index": 5,
+        "text_preview": "文献综述",
+        "style_name": "Heading 2",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 7,
+        "text_preview": "在相关政策的推动下，全国范围内人力、资本等各种生产要素的流动将更加畅通，各地对本地投资的保护强化以及...",
+        "style_name": "Normal",
+        "actual_spacing": {
+          "alignment": "左对齐"
+        }
+      },
+      {
+        "paragraph_index": 9,
+        "text_preview": "理论模型与研究假设",
+        "style_name": "Heading 2",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 10,
+        "text_preview": "三级标题1",
+        "style_name": "Heading 3",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 11,
+        "text_preview": "马克思在《资本论》中提出，信用是资本的一种形式，是货币资本的运动形式之一，社会信用环境的建立，加速了...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 12,
+        "text_preview": "基于以上分析，本文提出以下假设：",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 13,
+        "text_preview": "假设1a：",
+        "style_name": "Heading 4",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 14,
+        "text_preview": "高水平城市社会信用环境能够显著提升城市的异地投资吸引力",
+        "style_name": "Body Text First Indent 2",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 15,
+        "text_preview": "假设1b：",
+        "style_name": "Heading 4",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 16,
+        "text_preview": "高水平城市社会信用环境能够显著提升城市的同城投资吸引力",
+        "style_name": "Body Text First Indent 2",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 17,
+        "text_preview": "三级标题2",
+        "style_name": "Heading 3",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 18,
+        "text_preview": "财政透明度是指政府向公众披露财政信息的完整性、及时性和可理解性，其核心在于通过信息对称减少权力寻租空...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 19,
+        "text_preview": "基于以上分析，本文提出以下假设：",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 20,
+        "text_preview": "假设2：",
+        "style_name": "Heading 4",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 21,
+        "text_preview": "财政透明度在社会信用环境对地区投资吸引力的影响中发挥门槛效应。",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 22,
+        "text_preview": "三级标题3",
+        "style_name": "Heading 3",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 23,
+        "text_preview": "产业聚集的形成源于规模经济的成本优势、知识溢出与技术扩散、路径依赖形成的自我强化机制等。新经济地理学...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 24,
+        "text_preview": "基于以上分析，本文提出以下假设：",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 25,
+        "text_preview": "假设3a：",
+        "style_name": "Heading 4",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 26,
+        "text_preview": "产业聚集水平在城市社会信用环境对城市投资吸引力的影响中起到调节作用。",
+        "style_name": "Body Text First Indent 2",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 27,
+        "text_preview": "财政补贴是产业政策实施的主要财税手段之一。在城市信用环境建设对城市投资吸引力的影响路径中，财政补贴的...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 28,
+        "text_preview": "基于以上分析，本文提出以下假设：",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 29,
+        "text_preview": "假设3b：",
+        "style_name": "Heading 4",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 30,
+        "text_preview": "政府补贴在城市社会信用环境对城市投资吸引力的影响中起到调节作用。",
+        "style_name": "style_1",
+        "actual_spacing": {}
+      }
+    ],
+    "spacing_summary": {
+      "total_styles": 13,
+      "total_paragraphs": 27,
+      "line_spacing_usage": {
+        "多倍行距 (2.4)": 1,
+        "多倍行距 (1.7208333333333334)": 1
+      },
+      "alignment_usage": {
+        "两端对齐": 1,
+        "居中对齐": 2,
+        "左对齐": 5
+      },
+      "spacing_issues": []
+    }
+  },
+  "adjustment_guide": {
+    "document_analysis": "格式模板.docx",
+    "recommendations": [
+      "标题样式建议使用1.0-1.2倍行距，提高标题的紧凑性",
+      "正文样式建议使用1.5倍行距，提高可读性",
+      "段前距和段后距应保持一致，建议正文段后距6pt",
+      "标题段前距建议12-18pt，段后距建议6-12pt"
+    ],
+    "adjustment_methods": {
+      "单倍行距": "设置 paragraph_format.line_spacing = 1.0",
+      "1.5倍行距": "paragraph_format.line_spacing = 1.5",
+      "双倍行距": "paragraph_format.line_spacing = 2.0",
+      "固定行距": "paragraph_format.line_spacing_rule = WD_LINE_SPACING.EXACTLY; paragraph_format.line_spacing = Pt(值)",
+      "段前距": "paragraph_format.space_before = Pt(值)",
+      "段后距": "paragraph_format.space_after = Pt(值)",
+      "首行缩进": "paragraph_format.first_line_indent = Pt(值)"
+    },
+    "common_issues": []
+  },
+  "generated_at": "2025-09-03 16:01:35.060235"
+}

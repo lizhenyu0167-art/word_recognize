@@ -1,0 +1,315 @@
+{
+  "analysis_result": {
+    "document_path": "output\\格式化后的测试文档.docx",
+    "styles_analysis": {
+      "Normal": {
+        "style_name": "Normal",
+        "font_info": {
+          "name": "Times New Roman",
+          "size": "10.0pt",
+          "bold": false,
+          "italic": false
+        },
+        "spacing_info": {
+          "alignment": "两端对齐"
+        }
+      },
+      "Heading 1": {
+        "style_name": "Heading 1",
+        "font_info": {
+          "name": "Arial Unicode MS",
+          "size": "16.0pt",
+          "bold": true,
+          "italic": false
+        },
+        "spacing_info": {
+          "line_spacing": {
+            "value": "2.4",
+            "description": "多倍行距 (2.4)"
+          },
+          "space_before": "17.0pt",
+          "space_after": "16.5pt",
+          "alignment": "居中对齐"
+        }
+      },
+      "Heading 2": {
+        "style_name": "Heading 2",
+        "font_info": {
+          "name": "Arial",
+          "size": "12.0pt",
+          "bold": true,
+          "italic": false
+        },
+        "spacing_info": {
+          "line_spacing": {
+            "value": "1.7208333333333334",
+            "description": "多倍行距 (1.7208333333333334)"
+          },
+          "space_before": "13.0pt",
+          "space_after": "13.0pt",
+          "alignment": "居中对齐"
+        }
+      },
+      "Heading 3": {
+        "style_name": "Heading 3",
+        "font_info": {
+          "name": "Times New Roman",
+          "size": "11.0pt",
+          "bold": true,
+          "italic": false
+        },
+        "spacing_info": {
+          "first_line_indent": "22.1pt"
+        }
+      },
+      "Heading 4": {
+        "style_name": "Heading 4",
+        "font_info": {
+          "name": "Arial",
+          "size": "10.0pt",
+          "bold": true,
+          "italic": true
+        },
+        "spacing_info": {
+          "left_indent": "0.0pt"
+        }
+      },
+      "annotation text": {
+        "style_name": "annotation text",
+        "font_info": {
+          "name": "Arial",
+          "size": "10.0pt",
+          "bold": false,
+          "italic": false
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "Body Text Indent": {
+        "style_name": "Body Text Indent",
+        "font_info": {
+          "name": "Arial",
+          "size": "10.0pt",
+          "bold": false,
+          "italic": false
+        },
+        "spacing_info": {
+          "space_after": "6.0pt",
+          "left_indent": "21.0pt"
+        }
+      },
+      "Footer": {
+        "style_name": "Footer",
+        "font_info": {
+          "name": "Arial",
+          "size": "9.0pt",
+          "bold": false,
+          "italic": false
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "footnote text": {
+        "style_name": "footnote text",
+        "font_info": {
+          "name": "Arial",
+          "size": "9.0pt",
+          "bold": false,
+          "italic": false
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "Normal (Web)": {
+        "style_name": "Normal (Web)",
+        "font_info": {
+          "name": "Times New Roman",
+          "size": "10.0pt",
+          "bold": false,
+          "italic": false
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      },
+      "Body Text First Indent 2": {
+        "style_name": "Body Text First Indent 2",
+        "font_info": {
+          "name": "Arial",
+          "size": "10.0pt",
+          "bold": false,
+          "italic": false
+        },
+        "spacing_info": {
+          "first_line_indent": "21.0pt"
+        }
+      },
+      "style_1": {
+        "style_name": "style_1",
+        "font_info": {
+          "name": "Times New Roman",
+          "size": "36.0pt",
+          "bold": true,
+          "italic": false
+        },
+        "spacing_info": {
+          "first_line_indent": "72.3pt",
+          "left_indent": "0.0pt"
+        }
+      },
+      "HTML Preformatted": {
+        "style_name": "HTML Preformatted",
+        "font_info": {
+          "name": "宋体",
+          "size": "12.0pt",
+          "bold": false,
+          "italic": false
+        },
+        "spacing_info": {
+          "alignment": "左对齐"
+        }
+      }
+    },
+    "paragraphs_analysis": [
+      {
+        "paragraph_index": 1,
+        "text_preview": "新质生产力对区域碳排放影响的空间效应研究兼对杰文斯悖论的再验证",
+        "style_name": "Heading 1",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 2,
+        "text_preview": "本文基于2009—2021年251个地级市的面板数据，在传统的IPAT模型基础上进行拓展，引入无残差...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 3,
+        "text_preview": "一、引言及文献综述",
+        "style_name": "Heading 2",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 4,
+        "text_preview": "2023年9月习近平总书记在黑龙江考察调研期间首次提出新质生产力的概念。新质生产力区别于传统生产力，...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 5,
+        "text_preview": "理论假说",
+        "style_name": "Heading 2",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 6,
+        "text_preview": "杰文斯效应的经验验证——基于拓展IPAT模型的反弹效应研究",
+        "style_name": "Heading 3",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 7,
+        "text_preview": "1970年学术界围绕环境问题的根源，展开了“人口—技术”之争，Ehrlich、Holdren等学者提...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 8,
+        "text_preview": "但随着经济发展和社会对环境保护的重视，技术的目标不再单一地服务于生产力提高，越来越的技术进步体现在环...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 10,
+        "text_preview": "新质生产力的提高会对全国碳排放水平产生加强作用",
+        "style_name": "Heading 3",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 11,
+        "text_preview": "新质生产力提升的实现路径包括技术创新、生产要素优化配置、产业转型升级等多种路径。从马克思主义生产力理...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 12,
+        "text_preview": "因此，本文提出：",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 13,
+        "text_preview": "假设1：",
+        "style_name": "Heading 4",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 14,
+        "text_preview": "从全国范围看，新质生产力一定程度上将提高碳排放水平，符合杰文斯悖论。",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 15,
+        "text_preview": "由于地区经济发展差异，新质生产力对碳排放水平的影响存在空间差异",
+        "style_name": "Heading 3",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 16,
+        "text_preview": "新经济地理学认为，地理位置相关的地区的经济数据往往会相互影响。一个地区的经济活动会对周围地区的经济活...",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 17,
+        "text_preview": "因此，本文提出：",
+        "style_name": "Normal",
+        "actual_spacing": {}
+      },
+      {
+        "paragraph_index": 18,
+        "text_preview": "假设2：新质生产力对于区域碳排放水平的影响存在差异性，同时也存在一定规律性。",
+        "style_name": "style_1",
+        "actual_spacing": {}
+      }
+    ],
+    "spacing_summary": {
+      "total_styles": 13,
+      "total_paragraphs": 17,
+      "line_spacing_usage": {
+        "多倍行距 (2.4)": 1,
+        "多倍行距 (1.7208333333333334)": 1
+      },
+      "alignment_usage": {
+        "两端对齐": 1,
+        "居中对齐": 2,
+        "左对齐": 5
+      },
+      "spacing_issues": []
+    }
+  },
+  "adjustment_guide": {
+    "document_analysis": "output\\格式化后的测试文档.docx",
+    "recommendations": [
+      "标题样式建议使用1.0-1.2倍行距，提高标题的紧凑性",
+      "正文样式建议使用1.5倍行距，提高可读性",
+      "段前距和段后距应保持一致，建议正文段后距6pt",
+      "标题段前距建议12-18pt，段后距建议6-12pt"
+    ],
+    "adjustment_methods": {
+      "单倍行距": "设置 paragraph_format.line_spacing = 1.0",
+      "1.5倍行距": "paragraph_format.line_spacing = 1.5",
+      "双倍行距": "paragraph_format.line_spacing = 2.0",
+      "固定行距": "paragraph_format.line_spacing_rule = WD_LINE_SPACING.EXACTLY; paragraph_format.line_spacing = Pt(值)",
+      "段前距": "paragraph_format.space_before = Pt(值)",
+      "段后距": "paragraph_format.space_after = Pt(值)",
+      "首行缩进": "paragraph_format.first_line_indent = Pt(值)"
+    },
+    "common_issues": []
+  },
+  "generated_at": "2025-09-03 16:01:35.064236"
+}

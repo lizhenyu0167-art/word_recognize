@@ -1,0 +1,123 @@
+{
+  "document_defaults": {
+    "default_font": "宋体"
+  },
+  "styles": {
+    "Normal": {
+      "name": "Normal",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "font_size": "10.5pt",
+      "alignment": "两端对齐",
+      "actual_font": "Times New Roman"
+    },
+    "Heading 1": {
+      "name": "Heading 1",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "font_size": "16.0pt",
+      "bold": true,
+      "alignment": "居中",
+      "line_spacing": "2.4",
+      "space_before": "17.0pt",
+      "space_after": "16.5pt",
+      "actual_font": "宋体"
+    },
+    "Heading 2": {
+      "name": "Heading 2",
+      "type": "paragraph",
+      "font_name": "Arial",
+      "font_size": "12.0pt",
+      "bold": true,
+      "alignment": "居中",
+      "line_spacing": "1.7208333333333334",
+      "space_before": "13.0pt",
+      "space_after": "13.0pt",
+      "actual_font": "宋体"
+    },
+    "Heading 3": {
+      "name": "Heading 3",
+      "type": "paragraph",
+      "font_name": "Times New Roman",
+      "bold": true,
+      "first_line_indent": "21.0pt",
+      "actual_font": "宋体"
+    },
+    "Heading 4": {
+      "name": "Heading 4",
+      "type": "paragraph",
+      "font_name": "华文楷体",
+      "bold": true,
+      "left_indent": "0.0pt",
+      "actual_font": "宋体"
+    },
+    "Body Text First Indent 2": {
+      "name": "Body Text First Indent 2",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "first_line_indent": "21.0pt",
+      "actual_font": "Times New Roman"
+    },
+    "Body Text Indent": {
+      "name": "Body Text Indent",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "space_after": "6.0pt",
+      "left_indent": "21.0pt"
+    },
+    "Caption": {
+      "name": "Caption",
+      "type": "paragraph",
+      "font_name": "Arial",
+      "font_size": "10.0pt"
+    },
+    "annotation text": {
+      "name": "annotation text",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "alignment": "左对齐"
+    },
+    "Footer": {
+      "name": "Footer",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "font_size": "9.0pt",
+      "alignment": "左对齐"
+    },
+    "Header": {
+      "name": "Header",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "font_size": "9.0pt"
+    },
+    "footnote text": {
+      "name": "footnote text",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "font_size": "9.0pt",
+      "alignment": "左对齐"
+    },
+    "HTML Preformatted": {
+      "name": "HTML Preformatted",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_size": "12.0pt",
+      "alignment": "左对齐"
+    },
+    "Normal (Web)": {
+      "name": "Normal (Web)",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_source": "默认字体",
+      "alignment": "左对齐"
+    }
+  }
+}

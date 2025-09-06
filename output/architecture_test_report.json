@@ -1,0 +1,33 @@
+{
+  "test_time": "2025-09-02T14:42:43.570126",
+  "steps": {
+    "step1": {
+      "success": true,
+      "styles_count": 14,
+      "key_styles_found": [
+        "Heading 1",
+        "Heading 2",
+        "Heading 3",
+        "Heading 4"
+      ]
+    },
+    "step2": {
+      "success": true,
+      "file_size": 3444,
+      "styles_count": 14,
+      "font_separation_count": 7
+    },
+    "step3": {
+      "success": true,
+      "output_file": "格式化后的测试文档_1756795363.docx",
+      "output_size": 26624
+    },
+    "step4": {
+      "success": true,
+      "validation_passed": 4,
+      "validation_total": 4,
+      "success_rate": 100.0
+    }
+  },
+  "overall_success": true
+}

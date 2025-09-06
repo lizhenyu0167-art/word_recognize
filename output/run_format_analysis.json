@@ -1,0 +1,2675 @@
+{
+  "template_analysis": {
+    "document_name": "格式模板",
+    "paragraphs": [
+      {
+        "paragraph_index": 1,
+        "text_preview": "社会信用环境对地区投资吸引力的影响——基于门槛效应模型的实证分析",
+        "style_name": "Heading 1",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "社会信用环境对地区投资吸引力的影响",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "——",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 3,
+            "text_preview": "基于门槛效应模型的实证分析",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 3,
+        "text_preview": "引言",
+        "style_name": "Heading 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "引言",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 4,
+        "text_preview": "在我国从高速发展向高质量发展的背景下，社会信用环境最为重要的制度性要素，已经成为区域强化本地投资依赖...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "在我国从高速发展向高质量发展的背景下，社会信用环境最为重要的...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 2,
+            "text_preview": "2022",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 3,
+            "text_preview": "年，国务院印发《关于推进社会信用体系建设高质量发展促进形成新...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 4,
+            "text_preview": "2023",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 5,
+            "text_preview": "年，中共中央政治局会议指出，完善社会信用等市场经济基础制度，...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 6,
+            "text_preview": "“",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 7,
+            "text_preview": "改善消费环境",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 8,
+            "text_preview": "”",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 9,
+            "text_preview": "。",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 5,
+        "text_preview": "文献综述",
+        "style_name": "Heading 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "文献综述",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 7,
+        "text_preview": "在相关政策的推动下，全国范围内人力、资本等各种生产要素的流动将更加畅通，各地对本地投资的保护强化以及...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "在相关政策的推动下，全国范围内人力、资本等各种生产要素的流动...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 9,
+        "text_preview": "理论模型与研究假设",
+        "style_name": "Heading 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "理论模型与研究假设",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 10,
+        "text_preview": "三级标题1",
+        "style_name": "Heading 3",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "三级标题",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "1",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 11,
+        "text_preview": "马克思在《资本论》中提出，信用是资本的一种形式，是货币资本的运动形式之一，社会信用环境的建立，加速了...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "马克思在《资本论》中提出，信用是资本的一种形式，是货币资本的...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 2,
+            "text_preview": "·",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 3,
+            "text_preview": "斯密在其著作《国富论》中提出信用媒介理论，他认为，信用机制通...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 4,
+            "text_preview": "“",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 5,
+            "text_preview": "信用创造",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 6,
+            "text_preview": "”",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 7,
+            "text_preview": "增加了流通中的货币量，有助于提高整个经济的利用效率。凯恩斯在...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 8,
+            "text_preview": "“",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 9,
+            "text_preview": "投资乘数效应",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 10,
+            "text_preview": "”",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 11,
+            "text_preview": "放大投资规模。",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 12,
+            "text_preview": "Gurley",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 13,
+            "text_preview": "和",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 14,
+            "text_preview": "Shaw",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 15,
+            "text_preview": "在金融中介理论中提出，金融中介通过信用机制降低了经济交易成本...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 16,
+            "text_preview": "2018",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 17,
+            "text_preview": "），与之伴随的社会生产要素加速流动、经济生产高速发展、各地区...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 18,
+            "text_preview": "信用信息平台）降低地方政府与投资者之间的信息鸿沟的同时，也加...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 19,
+            "text_preview": "2024",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 20,
+            "text_preview": "），社会信用环境建设好的地区往往相比社会信用环境差的地区更容...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 21,
+            "text_preview": "2021",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 22,
+            "text_preview": "）。",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 12,
+        "text_preview": "基于以上分析，本文提出以下假设：",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "基于以上分析，本文提出以下假设：",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 13,
+        "text_preview": "假设1a：",
+        "style_name": "Heading 4",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "假设",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "1a",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 3,
+            "text_preview": "：",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 14,
+        "text_preview": "高水平城市社会信用环境能够显著提升城市的异地投资吸引力",
+        "style_name": "Body Text First Indent 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "高水平城市社会信用环境能够显著提升城市的异地投资吸引力",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 15,
+        "text_preview": "假设1b：",
+        "style_name": "Heading 4",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "假设",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "1b",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 3,
+            "text_preview": "：",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 16,
+        "text_preview": "高水平城市社会信用环境能够显著提升城市的同城投资吸引力",
+        "style_name": "Body Text First Indent 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "高水平城市社会信用环境能够显著提升城市的同城投资吸引力",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 17,
+        "text_preview": "三级标题2",
+        "style_name": "Heading 3",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "三级标题",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "2",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 18,
+        "text_preview": "财政透明度是指政府向公众披露财政信息的完整性、及时性和可理解性，其核心在于通过信息对称减少权力寻租空...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "财政透明度是指政府向公众披露财政信息的完整性、及时性和可理解...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 2,
+            "text_preview": "2019",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 3,
+            "text_preview": "）研究发现，在政府公开预算执行情况后，企业对政策稳定性的信任...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 4,
+            "text_preview": "“",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 5,
+            "text_preview": "透明财政",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 6,
+            "text_preview": "→",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 7,
+            "text_preview": "合规纳税",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 8,
+            "text_preview": "→",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 9,
+            "text_preview": "信用评级提升",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 10,
+            "text_preview": "→",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 11,
+            "text_preview": "融资便利",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 12,
+            "text_preview": "”",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 13,
+            "text_preview": "的正反馈链条（陶云清和张金林，",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 14,
+            "text_preview": "2023",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 15,
+            "text_preview": "）。其一，在低财政透明度地区，投资者需要更多资源去验证政府政...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 16,
+            "text_preview": "2011",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 17,
+            "text_preview": "），而在高财政透明度地区通过规范政策信息披露，能够更有效地降...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 18,
+            "text_preview": "Hou et al",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 19,
+            "text_preview": "，",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 20,
+            "text_preview": "2024",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 21,
+            "text_preview": "）。其二，财政透明度低的地区更容易出现政策反复，导致社会信用...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 22,
+            "text_preview": "2019",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 23,
+            "text_preview": "）。其三，社会信用环境的建设需以廉洁政府为前提，黄寿峰等（",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 24,
+            "text_preview": "2015",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 25,
+            "text_preview": "）发现，财政透明度与腐败案件的发生之间存在负相关关系，即说明...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 26,
+            "text_preview": "2012",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 27,
+            "text_preview": "）。投资者地区的投资风险感知具有明显的",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 28,
+            "text_preview": "“",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 29,
+            "text_preview": "阈值敏感",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 30,
+            "text_preview": "”",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 31,
+            "text_preview": "特征，余泳泽和郭梦华（",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 32,
+            "text_preview": "2020",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 33,
+            "text_preview": "）研究发现，当城市信用评分达到一定级别之后，投资者会大幅增加...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 19,
+        "text_preview": "基于以上分析，本文提出以下假设：",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "基于以上分析，本文提出以下假设：",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 20,
+        "text_preview": "假设2：",
+        "style_name": "Heading 4",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "假设",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "2",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 3,
+            "text_preview": "：",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 21,
+        "text_preview": "财政透明度在社会信用环境对地区投资吸引力的影响中发挥门槛效应。",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "财政透明度在社会信用环境对地区投资吸引力的影响中发挥门槛效应...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 22,
+        "text_preview": "三级标题3",
+        "style_name": "Heading 3",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "三级标题",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "3",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 23,
+        "text_preview": "产业聚集的形成源于规模经济的成本优势、知识溢出与技术扩散、路径依赖形成的自我强化机制等。新经济地理学...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "产业聚集的形成源于规模经济的成本优势、知识溢出与技术扩散、路...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 2,
+            "text_preview": "Sándo",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 3,
+            "text_preview": "，",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 4,
+            "text_preview": "2021",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 5,
+            "text_preview": "），降低了企业做投资决策时的信用评估成本，使得高信用环境的信...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 6,
+            "text_preview": "Wang et al",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 7,
+            "text_preview": "，",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 8,
+            "text_preview": "2024",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 9,
+            "text_preview": "）。产业集群内的供应链协作（如联合担保机制）可分散违约风险，...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 10,
+            "text_preview": "2002",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 11,
+            "text_preview": "）。产业聚集常伴随专业化中介机构（如信用评级机构）的嵌入，通...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 12,
+            "text_preview": "2019",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 13,
+            "text_preview": "；梅帅，",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 14,
+            "text_preview": "2020",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 15,
+            "text_preview": "）。",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 24,
+        "text_preview": "基于以上分析，本文提出以下假设：",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "基于以上分析，本文提出以下假设：",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 25,
+        "text_preview": "假设3a：",
+        "style_name": "Heading 4",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "假设",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "3a",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 3,
+            "text_preview": "：",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 26,
+        "text_preview": "产业聚集水平在城市社会信用环境对城市投资吸引力的影响中起到调节作用。",
+        "style_name": "Body Text First Indent 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "产业聚集水平在城市社会信用环境对城市投资吸引力的影响中起到调...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 27,
+        "text_preview": "财政补贴是产业政策实施的主要财税手段之一。在城市信用环境建设对城市投资吸引力的影响路径中，财政补贴的...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "财政补贴是产业政策实施的主要财税手段之一。在城市信用环境建设...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 2,
+            "text_preview": "2018",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 3,
+            "text_preview": "）。其二，财政补贴通过对企业直接的资源补充降低了企业投资的信...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 4,
+            "text_preview": "2018",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 5,
+            "text_preview": "），当地政府对企业财政补贴力度大，说明当地政府重视企业发展，...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 28,
+        "text_preview": "基于以上分析，本文提出以下假设：",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "基于以上分析，本文提出以下假设：",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 29,
+        "text_preview": "假设3b：",
+        "style_name": "Heading 4",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "假设",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "3b",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 3,
+            "text_preview": "：",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 30,
+        "text_preview": "政府补贴在城市社会信用环境对城市投资吸引力的影响中起到调节作用。",
+        "style_name": "Body Text First Indent 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "政府补贴在城市社会信用环境对城市投资吸引力的影响中起到调节作...",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          },
+          {
+            "run_index": 2,
+            "text_preview": "。",
+            "font_info": {
+              "name": "Times New Roman",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "Times New Roman",
+              "hAnsi": "Times New Roman",
+              "eastAsia": "宋体",
+              "cs": "Times New Roman"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "formatted_analysis": {
+    "document_name": "格式化文档",
+    "paragraphs": [
+      {
+        "paragraph_index": 1,
+        "text_preview": "新质生产力对区域碳排放影响的空间效应研究兼对杰文斯悖论的再验证",
+        "style_name": "Heading 1",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "新质生产力对区域碳排放影响的空间效应研究兼对杰文斯悖论的再验...",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 2,
+        "text_preview": "本文基于2009—2021年251个地级市的面板数据，在传统的IPAT模型基础上进行拓展，引入无残差...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "本文基于2009—2021年251个地级市的面板数据，",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 2,
+            "text_preview": "在传统的IPAT模型基础上进行拓展，引入无残差完全分解模型，...",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 3,
+            "text_preview": "，",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 4,
+            "text_preview": "对全国及七大城市群碳排放的反弹效应进行拆解",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 5,
+            "text_preview": "。",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 6,
+            "text_preview": "分解结果显示，影响我国碳排放增加的主要因素是财富规模效应和新...",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 7,
+            "text_preview": "。",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 8,
+            "text_preview": "此外，",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 9,
+            "text_preview": "采用传统固定效应面板回归和空间杜宾模型，从全国范围以及七大城...",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 10,
+            "text_preview": "、",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 11,
+            "text_preview": "中原城市群碳排放水平具有显著负向作用，表明杰文斯悖论不成立；...",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 12,
+            "text_preview": "长江中游城市群、",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          },
+          {
+            "run_index": 13,
+            "text_preview": "成渝城市群、哈长城市群碳排放水平的作用显著性不足。本文研究结...",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 3,
+        "text_preview": "一、引言及文献综述",
+        "style_name": "Heading 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "一、引言及文献综述",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 4,
+        "text_preview": "2023年9月习近平总书记在黑龙江考察调研期间首次提出新质生产力的概念。新质生产力区别于传统生产力，...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "2023年9月习近平总书记在黑龙江考察调研期间首次提出新质生...",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 5,
+        "text_preview": "理论假说",
+        "style_name": "Heading 2",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "理论假说",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 6,
+        "text_preview": "杰文斯效应的经验验证——基于拓展IPAT模型的反弹效应研究",
+        "style_name": "Heading 3",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "杰文斯效应的经验验证——基于拓展IPAT模型的反弹效应研究",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 7,
+        "text_preview": "1970年学术界围绕环境问题的根源，展开了“人口—技术”之争，Ehrlich、Holdren等学者提...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "1970年学术界围绕环境问题的根源，展开了“人口—技术”之争...",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 8,
+        "text_preview": "但随着经济发展和社会对环境保护的重视，技术的目标不再单一地服务于生产力提高，越来越的技术进步体现在环...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "但随着经济发展和社会对环境保护的重视，技术的目标不再单一地服...",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 10,
+        "text_preview": "新质生产力的提高会对全国碳排放水平产生加强作用",
+        "style_name": "Heading 3",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "新质生产力的提高会对全国碳排放水平产生加强作用",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 11,
+        "text_preview": "新质生产力提升的实现路径包括技术创新、生产要素优化配置、产业转型升级等多种路径。从马克思主义生产力理...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "新质生产力提升的实现路径包括技术创新、生产要素优化配置、产业...",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 12,
+        "text_preview": "因此，本文提出：",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "因此，本文提出：",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 13,
+        "text_preview": "假设1：从全国范围看，新质生产力一定程度上将提高碳排放水平，符合杰文斯悖论。",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "假设1：从全国范围看，新质生产力一定程度上将提高碳排放水平，...",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 14,
+        "text_preview": "由于地区经济发展差异，新质生产力对碳排放水平的影响存在空间差异",
+        "style_name": "Heading 3",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "由于地区经济发展差异，新质生产力对碳排放水平的影响存在空间差...",
+            "font_info": {
+              "name": null,
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {}
+          }
+        ]
+      },
+      {
+        "paragraph_index": 15,
+        "text_preview": "新经济地理学认为，地理位置相关的地区的经济数据往往会相互影响。一个地区的经济活动会对周围地区的经济活...",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "新经济地理学认为，地理位置相关的地区的经济数据往往会相互影响...",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          },
+          {
+            "run_index": 2,
+            "text_preview": "丘陵等多种地貌，各地区地理环境、地貌特征差异巨大，这奠定了不...",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 16,
+        "text_preview": "因此，本文提出：",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "因此，本文提出：",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph_index": 17,
+        "text_preview": "假设2：新质生产力对于区域碳排放水平的影响存在差异性，同时也存在一定规律性。",
+        "style_name": "Normal",
+        "runs": [
+          {
+            "run_index": 1,
+            "text_preview": "假设2：新质生产力对于区域碳排放水平的影响存在差异性，同时也...",
+            "font_info": {
+              "name": "华文楷体",
+              "size": null,
+              "bold": null,
+              "italic": null,
+              "underline": null
+            },
+            "xml_font_info": {
+              "ascii": "华文楷体",
+              "hAnsi": "华文楷体",
+              "eastAsia": "华文楷体",
+              "cs": "华文楷体"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "comparison_summary": {
+    "template_paragraphs": 27,
+    "formatted_paragraphs": 16,
+    "run_format_issues": [
+      "段落数量不匹配: 模板27个，格式化文档16个",
+      "段落2样式不匹配: 模板'Heading 2' vs 格式化'Normal'",
+      "段落3样式不匹配: 模板'Normal' vs 格式化'Heading 2'",
+      "段落4样式不匹配: 模板'Heading 2' vs 格式化'Normal'",
+      "段落5样式不匹配: 模板'Normal' vs 格式化'Heading 2'",
+      "段落6样式不匹配: 模板'Heading 2' vs 格式化'Heading 3'",
+      "段落7样式不匹配: 模板'Heading 3' vs 格式化'Normal'",
+      "段落9样式不匹配: 模板'Normal' vs 格式化'Heading 3'",
+      "段落10样式不匹配: 模板'Heading 4' vs 格式化'Normal'",
+      "段落11样式不匹配: 模板'Body Text First Indent 2' vs 格式化'Normal'",
+      "段落12样式不匹配: 模板'Heading 4' vs 格式化'Normal'",
+      "段落13样式不匹配: 模板'Body Text First Indent 2' vs 格式化'Heading 3'",
+      "段落14样式不匹配: 模板'Heading 3' vs 格式化'Normal'"
+    ],
+    "font_separation_issues": [
+      "段落7存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}",
+      "段落8存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}",
+      "段落10存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}",
+      "段落11存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}",
+      "段落12存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}",
+      "段落14存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}",
+      "段落14存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}",
+      "段落15存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}",
+      "段落16存在run级别字体设置: 字体名称=华文楷体 XML字体分离={'ascii': '华文楷体', 'hAnsi': '华文楷体', 'eastAsia': '华文楷体', 'cs': '华文楷体'}"
+    ]
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "extraction_time": "2025-09-04T12:33:20.618942",
+  "template_file": "格式模板.docx",
+  "document_defaults": {
+    "default_font": "宋体",
+    "default_font_size": "10.0pt"
+  },
+  "styles": {
+    "Normal": {
+      "name": "Normal",
+      "type": "paragraph",
+      "font_name": "Times New Roman",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Times New Roman",
+        "hAnsi": "Times New Roman",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "alignment": "两端对齐"
+    },
+    "Heading 1": {
+      "name": "Heading 1",
+      "type": "paragraph",
+      "font_name": "Arial Unicode MS",
+      "font_size": "16.0pt",
+      "bold": true,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial Unicode MS",
+        "hAnsi": "Arial Unicode MS",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "alignment": "居中",
+      "line_spacing": "2.4",
+      "space_before": "17.0pt",
+      "space_after": "16.5pt"
+    },
+    "Heading 2": {
+      "name": "Heading 2",
+      "type": "paragraph",
+      "font_name": "Arial",
+      "font_size": "12.0pt",
+      "bold": true,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "微软雅黑",
+        "cs": "Arial"
+      },
+      "alignment": "居中",
+      "line_spacing": "1.7208333333333334",
+      "space_before": "13.0pt",
+      "space_after": "13.0pt"
+    },
+    "Heading 3": {
+      "name": "Heading 3",
+      "type": "paragraph",
+      "font_size": "11.0pt",
+      "bold": true,
+      "italic": false,
+      "font_separation": {
+        "eastAsia": "仿宋",
+        "cs": "仿宋",
+        "ascii": "Times New Roman",
+        "hAnsi": "Times New Roman"
+      },
+      "line_spacing": "2.0",
+      "first_line_indent": "22.1pt"
+    },
+    "Heading 4": {
+      "name": "Heading 4",
+      "type": "paragraph",
+      "font_size": "10.0pt",
+      "bold": true,
+      "italic": true,
+      "font_separation": {
+        "eastAsia": "黑体",
+        "cs": "华文楷体",
+        "ascii": "Arial",
+        "hAnsi": "Arial"
+      },
+      "line_spacing": "1.5",
+      "left_indent": "0.0pt"
+    },
+    "Heading 5": {
+      "name": "Heading 5",
+      "type": "paragraph",
+      "font_size": "9.0pt",
+      "bold": true,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "space_before": "14.0pt",
+      "space_after": "14.5pt"
+    },
+    "Body Text First Indent 2": {
+      "name": "Body Text First Indent 2",
+      "type": "paragraph",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "first_line_indent": "21.0pt"
+    },
+    "Body Text Indent": {
+      "name": "Body Text Indent",
+      "type": "paragraph",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "space_after": "6.0pt",
+      "left_indent": "21.0pt"
+    },
+    "Caption": {
+      "name": "Caption",
+      "type": "paragraph",
+      "font_name": "Arial",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "黑体",
+        "cs": "Arial"
+      }
+    },
+    "annotation text": {
+      "name": "annotation text",
+      "type": "paragraph",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "alignment": "左对齐"
+    },
+    "Footer": {
+      "name": "Footer",
+      "type": "paragraph",
+      "font_size": "9.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "alignment": "左对齐"
+    },
+    "Header": {
+      "name": "Header",
+      "type": "paragraph",
+      "font_size": "9.0pt",
+      "bold": false,
+      "italic": false,
+      "color": "000000",
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      }
+    },
+    "footnote text": {
+      "name": "footnote text",
+      "type": "paragraph",
+      "font_size": "9.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "alignment": "左对齐"
+    },
+    "HTML Preformatted": {
+      "name": "HTML Preformatted",
+      "type": "paragraph",
+      "font_name": "宋体",
+      "font_size": "12.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "宋体",
+        "hAnsi": "宋体",
+        "cs": "Times New Roman",
+        "eastAsia": "宋体"
+      },
+      "alignment": "左对齐"
+    },
+    "Normal (Web)": {
+      "name": "Normal (Web)",
+      "type": "paragraph",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "cs": "Times New Roman",
+        "ascii": "Times New Roman",
+        "hAnsi": "Times New Roman",
+        "eastAsia": "宋体"
+      },
+      "alignment": "左对齐"
+    },
+    "List Paragraph": {
+      "name": "List Paragraph",
+      "type": "paragraph",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Arial",
+        "hAnsi": "Arial",
+        "eastAsia": "宋体",
+        "cs": "Arial"
+      },
+      "first_line_indent": "21.0pt"
+    },
+    "EndNote Bibliography": {
+      "name": "EndNote Bibliography",
+      "type": "paragraph",
+      "font_name": "Calibri",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "Calibri",
+        "hAnsi": "Calibri",
+        "cs": "Calibri",
+        "eastAsia": "宋体"
+      }
+    },
+    "作者": {
+      "name": "作者",
+      "type": "paragraph",
+      "font_size": "9.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "eastAsia": "楷体",
+        "cs": "Times New Roman",
+        "ascii": "Times New Roman",
+        "hAnsi": "Times New Roman"
+      },
+      "alignment": "居中",
+      "first_line_indent": "18.0pt"
+    },
+    "摘要&关键词内容": {
+      "name": "摘要&关键词内容",
+      "type": "paragraph",
+      "font_size": "9.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "eastAsia": "楷体",
+        "cs": "Times New Roman",
+        "ascii": "Times New Roman",
+        "hAnsi": "Times New Roman"
+      },
+      "first_line_indent": "18.05pt"
+    },
+    "摘要&关键词开头": {
+      "name": "摘要&关键词开头",
+      "type": "paragraph",
+      "font_size": "9.0pt",
+      "bold": true,
+      "italic": false,
+      "color": "1A2029",
+      "font_separation": {
+        "eastAsia": "黑体",
+        "cs": "Times New Roman",
+        "ascii": "Times New Roman",
+        "hAnsi": "Times New Roman"
+      },
+      "first_line_indent": "18.05pt"
+    },
+    "图表": {
+      "name": "图表",
+      "type": "paragraph",
+      "font_name": "楷体",
+      "font_size": "10.0pt",
+      "bold": false,
+      "italic": false,
+      "font_separation": {
+        "ascii": "楷体",
+        "hAnsi": "楷体",
+        "eastAsia": "楷体",
+        "cs": "楷体"
+      },
+      "alignment": "居中"
+    },
+    "表格内": {
+      "name": "表格内",
+      "type": "paragraph",
+      "font_name": "Times New Roman",
+      "font_size": "7.5pt",
+      "bold": false,
+      "italic": false,
+      "color": "000000",
+      "font_separation": {
+        "ascii": "Times New Roman",
+        "hAnsi": "Times New Roman",
+        "eastAsia": "楷体",
+        "cs": "majorEastAsia"
+      },
+      "alignment": "居中"
+    }
+  }
+}

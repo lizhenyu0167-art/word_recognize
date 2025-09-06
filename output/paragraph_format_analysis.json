@@ -1,0 +1,659 @@
+{
+  "document_path": "output\\格式化后的测试文档_1756862137.docx",
+  "total_paragraphs": 18,
+  "paragraphs_with_runs": 16,
+  "analysis_details": [
+    {
+      "paragraph_index": 0,
+      "text_preview": "新质生产力对区域碳排放影响的空间效应研究兼对杰文斯悖论的再验证",
+      "style_name": "Heading 1",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "新质生产力对区域碳排放影响的空间效应研究兼对杰文斯悖论的再验证",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 1,
+      "text_preview": "本文基于2009—2021年251个地级市的面板数据，在传统的IPAT模型基础上进行拓展，引入无残差...",
+      "style_name": "Normal",
+      "runs_count": 13,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "本文基于2009—2021年251个地级市的面板数据，",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 1,
+          "text": "在传统的IPAT模型基础上进行拓展，引入无残差完全分解模型，添加新质生产力效应并分离对环境压力的技术制约效应构建IPANT模型",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 2,
+          "text": "，",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 3,
+          "text": "对全国及七大城市群碳排放的反弹效应进行拆解",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 4,
+          "text": "。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 5,
+          "text": "分解结果显示，影响我国碳排放增加的主要因素是财富规模效应和新质生产力效应，其次是人口增长效应；而环境治理技术进步带来的对碳排放的技术制约效应是碳排放下降的主要原因",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 6,
+          "text": "。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 7,
+          "text": "此外，",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 8,
+          "text": "采用传统固定效应面板回归和空间杜宾模型，从全国范围以及七大城市群的异质性角度对新质生产力对碳排放的影响路径及空间差异进行分析。实证结果表明，就全国范围来看，新质生产力提高会显著提高碳排放水平，证实存在杰文斯悖论，但其空间溢出效应不明显。从区域异质性来看，新质生产力对珠三角城市群、京津冀城市群碳排放水平具有显著正向作用，同样支持杰文斯悖论的存在；对长三角城市群",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 9,
+          "text": "、",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 10,
+          "text": "中原城市群碳排放水平具有显著负向作用，表明杰文斯悖论不成立；对",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 11,
+          "text": "长江中游城市群、",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 12,
+          "text": "成渝城市群、哈长城市群碳排放水平的作用显著性不足。本文研究结论对于我国优化新质生产力结构以及发挥新质生产力对地区经济发展与碳排放平衡的作用具有启发意义。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 2,
+      "text_preview": "一、引言及文献综述",
+      "style_name": "Heading 2",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "一、引言及文献综述",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 3,
+      "text_preview": "2023年9月习近平总书记在黑龙江考察调研期间首次提出新质生产力的概念。新质生产力区别于传统生产力，...",
+      "style_name": "Normal",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "2023年9月习近平总书记在黑龙江考察调研期间首次提出新质生产力的概念。新质生产力区别于传统生产力，是以新技术深化应用为驱动，以新产业、新业态和新模式快速涌现为重要特征，进而构建起新型社会生产关系和社会制度体系的生产力。新质生产力是推动人类文明进步的根本动力。伴随着新质生产力的提出，学术界也掀起了一股新质生产力的研究热潮，新质生产力与碳排放主题的研究是其中热点之一。2020年，习近平总书记在第七十五届联合国大会上，首次提出中国在2030年前达到“碳达峰”、2060年前实现“碳中和”的目标，是中国对全球气候行动的重要承诺。深入研究新质生产力对碳排放的影响路径，分析新质生产力对碳排放的影响区域性差异，对于推动经济绿色转型，指导地区差异化政策制定，实现新质生产力发展与碳排放的平衡协调，对于实现经济的高质量发展、积极应对气候变化以及构建人类命运共同体具有重要意义。那么，在此背景下，新质生产力的发展对碳排放的影响是如何的？是会减少碳排放还是伴随着碳排放的增加？当前中国经济是否还存在“杰文斯悖论”？不同区域特征的城市经济在新质生产力对碳排放的影响路径上是否存在差异，又存在怎样的规律性？针对以上问题的探究，有助于深刻理解新质生产力推动经济增长、作用碳排放的影响路径，对于指导地区差异性协调新质生产力发展与碳排放之间的关系具有指导性意义。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 4,
+      "text_preview": "理论假说",
+      "style_name": "Heading 2",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "理论假说",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 5,
+      "text_preview": "杰文斯效应的经验验证——基于拓展IPAT模型的反弹效应研究",
+      "style_name": "Heading 3",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "杰文斯效应的经验验证——基于拓展IPAT模型的反弹效应研究",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 6,
+      "text_preview": "1970年学术界围绕环境问题的根源，展开了“人口—技术”之争，Ehrlich、Holdren等学者提...",
+      "style_name": "Normal",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "1970年学术界围绕环境问题的根源，展开了“人口—技术”之争，Ehrlich、Holdren等学者提出IPAT模型，用于解释人口增长、经济发展和技术进步对环境的影响（钟兴菊和龙少波，2016）。模型的核心思想是将环境影响（I）分解为人口（P）、富裕程度（A）和技术（T）三个因素的乘积，即I = P x A x T，它强调了人口规模、经济活动和技术水平在环境压力中的作用。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": "266700",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 7,
+      "text_preview": "但随着经济发展和社会对环境保护的重视，技术的目标不再单一地服务于生产力提高，越来越的技术进步体现在环...",
+      "style_name": "Normal",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "但随着经济发展和社会对环境保护的重视，技术的目标不再单一地服务于生产力提高，越来越的技术进步体现在环保、低碳、可持续等方面，尤其在当下新质生产力替代传统生产力，塑造高质量发展新动能的新阶段，不加区分的对技术的反弹效应进行分析已不适用当下经济实际。借鉴苑清敏等（2014）在经济增长与资源和环境关系中对IPAT模型的分解思路，本文以碳排放这一环境压力作为研究对象，在传统IPAT模型的基础上进行拓展，构建IPARN模型，即I = P x A x R x N，表示对碳排放（I）的影响因素由人口（P）、富裕程度（A）、对碳排放的技术制约（R）和新质生产力（N）构成。富裕程度（A）用人均GDP衡量，即GDP/P；对碳排放的技术制约（R）用单位GDP·新质生产力的碳排放衡量。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": "266700",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 8,
+      "text_preview": "",
+      "style_name": "Normal",
+      "runs_count": 0,
+      "runs_analysis": [],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 9,
+      "text_preview": "新质生产力的提高会对全国碳排放水平产生加强作用",
+      "style_name": "Heading 3",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "新质生产力的提高会对全国碳排放水平产生加强作用",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 10,
+      "text_preview": "新质生产力提升的实现路径包括技术创新、生产要素优化配置、产业转型升级等多种路径。从马克思主义生产力理...",
+      "style_name": "Normal",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "新质生产力提升的实现路径包括技术创新、生产要素优化配置、产业转型升级等多种路径。从马克思主义生产力理论视角看，新质生产力是传统生产力在数字技术、绿色技术等革命性突破下的跃迁（戴翔，2023）。创新技术的研发和应用可能伴随高能耗基础设施建设和短期能源需求激增，产业升级并非一蹴而就，而是存在阶段效应，产能扩张需消耗大量资源。数据要素流通效率的提升在放大经济规模效应、驱动生产与消费需求同步增长的同时，会进一步刺激对传统能源的需求，从而抵消能源效率改进的减排效果，这一点符合“杰文斯悖论”（徐国泉等，2006）。此外，新质生产力提高伴随着技术进步、效率提升以及碳排放效率的提升，但是对于不同的经济发展水平，新质生产力对碳排放的影响存在差异。经济的发展，产业结构往往要经历从劳动密集型产业为主、资本密集型产业为主向技术、知识密集型产业为主转变的发展过程。整体上，我国正处于从高速发展向高质量发展的过渡阶段，产业结构仍然以资本密集型特征明显的制造业为主，同时向以技术、知识密集型产业为代表的服务业为主转变。在这一过程中，一方面，就全国范围而言，新质生产力的发展意味着产业从经济发达地区向欠发达地区的产业迁移链的建立，欠发达地区资本密集型产业占比的提高以及碳排放水平的增加；另一方面，新质生产力的发展往往需要大量的前期投资，包括基础设施的建设，我国作为基建大国，在铁路、公路、地铁、电力设施、水利设施、通信设施等方面的基础设施建设，均会暂时性地提高碳排放水平。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": "266700",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 11,
+      "text_preview": "因此，本文提出：",
+      "style_name": "Normal",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "因此，本文提出：",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": "266700",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 12,
+      "text_preview": "假设1：从全国范围看，新质生产力一定程度上将提高碳排放水平，符合杰文斯悖论。",
+      "style_name": "Normal",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "假设1：从全国范围看，新质生产力一定程度上将提高碳排放水平，符合杰文斯悖论。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": "266700",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 13,
+      "text_preview": "由于地区经济发展差异，新质生产力对碳排放水平的影响存在空间差异",
+      "style_name": "Heading 3",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "由于地区经济发展差异，新质生产力对碳排放水平的影响存在空间差异",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": null,
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 14,
+      "text_preview": "新经济地理学认为，地理位置相关的地区的经济数据往往会相互影响。一个地区的经济活动会对周围地区的经济活...",
+      "style_name": "Normal",
+      "runs_count": 2,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "新经济地理学认为，地理位置相关的地区的经济数据往往会相互影响。一个地区的经济活动会对周围地区的经济活动产生影响，同样的，周围地区的经济活动也会对本地区的经济活动产生影响。我国地区辽阔，涵盖高原、山岭、平原、",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        },
+        {
+          "run_index": 1,
+          "text": "丘陵等多种地貌，各地区地理环境、地貌特征差异巨大，这奠定了不同区域经济发展和产业结构上的差异性，这种差异性也决定了新质生产力构成上的不同。例如，东部地区在资本、人力资本和技术要素上要明显优于中西部地区，技术进步和资源配置效率的区域差距导致增长质量差异（李静等，2006；傅晓霞和吴利学，2006）；中国制度的变迁和完善过程同样存在区域的差异性，东部地区的经济发展与制度变迁已经实现良性循环互动，而中西部地区各项制度变量值相对偏低。此外，资源型省份（如山西、内蒙古）依赖传统能源产业（史丹，2006），导致能源效率低于东南沿海，长三角、珠三角的研发投入强度远高于中西部地区，形成强大的技术壁垒（傅晓霞和吴利学，2006）。综上而言，构成新质生产力的资本、人力资源、产业结构、技术要素、研发投入等均存在显著的地域差异，因此新质生产力对碳排放的影响应存在区域异质性。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": "266700",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 15,
+      "text_preview": "因此，本文提出：",
+      "style_name": "Normal",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "因此，本文提出：",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": "266700",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 16,
+      "text_preview": "假设2：新质生产力对于区域碳排放水平的影响存在差异性，同时也存在一定规律性。",
+      "style_name": "Normal",
+      "runs_count": 1,
+      "runs_analysis": [
+        {
+          "run_index": 0,
+          "text": "假设2：新质生产力对于区域碳排放水平的影响存在差异性，同时也存在一定规律性。",
+          "font_info": {
+            "name": null,
+            "size": null,
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "color": null
+          }
+        }
+      ],
+      "paragraph_format": {
+        "alignment": null,
+        "first_line_indent": "266700",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": null
+      }
+    },
+    {
+      "paragraph_index": 17,
+      "text_preview": "",
+      "style_name": "Normal",
+      "runs_count": 0,
+      "runs_analysis": [],
+      "paragraph_format": {
+        "alignment": "JUSTIFY (3)",
+        "first_line_indent": "152400",
+        "left_indent": null,
+        "right_indent": null,
+        "space_before": null,
+        "space_after": null,
+        "line_spacing": "1.0"
+      }
+    }
+  ]
+}
