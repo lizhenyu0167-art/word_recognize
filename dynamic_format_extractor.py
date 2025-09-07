@@ -4,6 +4,7 @@
 动态格式提取器
 功能：完整提取格式模板中各标题及正文的排版格式信息
 包括中英文字体分离、字号、行间距、段落间距等所有格式属性
+以及页眉页脚格式
 """
 
 import os
@@ -23,7 +24,8 @@ class DynamicFormatExtractor:
             'extraction_time': None,
             'template_file': self.template_path,
             'document_defaults': {},
-            'styles': {}
+            'styles': {},
+            'section_settings': {}
         }
     
     def extract_template_formats(self, template_path=None):
@@ -37,6 +39,8 @@ class DynamicFormatExtractor:
         
         self.format_info['extraction_time'] = datetime.now().isoformat()
         self.format_info['template_file'] = os.path.basename(template_path)
+        self.format_info['headers'] = {}
+        self.format_info['footers'] = {}
         
         try:
             doc = Document(template_path)
@@ -75,11 +79,15 @@ class DynamicFormatExtractor:
                         english_font = style_info['font_separation'].get('ascii') or style_info['font_separation'].get('hAnsi', '未设置')
                         print(f"  字体分离: 英文={english_font}, 中文={style_info['font_separation'].get('eastAsia', '未设置')}, 字号={font_size}")
             
-            # 3. 保存格式信息到文件
+            # 3. 提取页眉页脚格式信息
+            print("\n=== 提取页眉页脚格式信息 ===")
+            self._extract_header_footer_formats(doc)
+            
+            # 4. 保存格式信息到文件
             self._save_format_info()
             
             print(f"\n格式信息提取完成！")
-            print(f"共提取 {len(self.format_info['styles'])} 个样式")
+            print(f"共提取 {len(self.format_info['styles'])} 个样式，页眉 {len(self.format_info['headers'])} 个，页脚 {len(self.format_info['footers'])} 个")
             
             return self.format_info
             
@@ -496,6 +504,92 @@ class DynamicFormatExtractor:
             
         except Exception as e:
             print(f"保存格式信息时出错: {e}")
+            
+    def _extract_header_footer_formats(self, doc):
+        """
+        提取页眉页脚的格式信息
+        """
+        try:
+            # 遍历文档的节
+            for i, section in enumerate(doc.sections):
+                section_id = f"section_{i+1}"
+                
+                # 提取页眉顶端距离和页脚底端距离
+                if hasattr(section, 'header_distance') and section.header_distance:
+                    header_distance_pt = section.header_distance.pt
+                    self.format_info['section_settings'][section_id] = self.format_info['section_settings'].get(section_id, {})
+                    self.format_info['section_settings'][section_id]['header_distance'] = f"{header_distance_pt}pt"
+                    print(f"提取页眉顶端距离: 第{i+1}节 - {header_distance_pt}pt")
+                
+                if hasattr(section, 'footer_distance') and section.footer_distance:
+                    footer_distance_pt = section.footer_distance.pt
+                    self.format_info['section_settings'][section_id] = self.format_info['section_settings'].get(section_id, {})
+                    self.format_info['section_settings'][section_id]['footer_distance'] = f"{footer_distance_pt}pt"
+                    print(f"提取页脚底端距离: 第{i+1}节 - {footer_distance_pt}pt")
+                
+                # 提取页眉格式
+                if section.header.is_linked_to_previous == False:
+                    header_info = self._extract_header_footer_content(section.header)
+                    if header_info:
+                        self.format_info['headers'][section_id] = header_info
+                        print(f"提取页眉格式: 第{i+1}节")
+                
+                # 提取页脚格式
+                if section.footer.is_linked_to_previous == False:
+                    footer_info = self._extract_header_footer_content(section.footer)
+                    if footer_info:
+                        self.format_info['footers'][section_id] = footer_info
+                        print(f"提取页脚格式: 第{i+1}节")
+                        
+        except Exception as e:
+            print(f"提取页眉页脚格式时出错: {e}")
+    
+    def _extract_header_footer_content(self, header_footer):
+        """
+        提取页眉或页脚的内容和格式
+        """
+        try:
+            content_info = {
+                'paragraphs': []
+            }
+            
+            for para in header_footer.paragraphs:
+                para_info = {
+                    'text': para.text,
+                    'alignment': str(para.alignment) if para.alignment else 'LEFT',
+                    'runs': []
+                }
+                
+                # 提取每个文本块的格式
+                for run in para.runs:
+                    run_info = {
+                        'text': run.text
+                    }
+                    
+                    # 提取字体信息
+                    if run.font:
+                        if run.font.name:
+                            run_info['font_name'] = run.font.name
+                        if run.font.size:
+                            run_info['font_size'] = str(run.font.size.pt) + 'pt'
+                        if run.font.bold is not None:
+                            run_info['bold'] = run.font.bold
+                        if run.font.italic is not None:
+                            run_info['italic'] = run.font.italic
+                        if run.font.underline is not None:
+                            run_info['underline'] = str(run.font.underline)
+                        if run.font.color and run.font.color.rgb:
+                            run_info['color'] = str(run.font.color.rgb)
+                    
+                    para_info['runs'].append(run_info)
+                
+                content_info['paragraphs'].append(para_info)
+            
+            return content_info
+            
+        except Exception as e:
+            print(f"提取页眉页脚内容时出错: {e}")
+            return None
     
     def load_format_info(self, format_file=None):
         """

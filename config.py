@@ -38,7 +38,15 @@ class Config:
     @classmethod
     def get_formatted_doc_path(cls, timestamp=None):
         """获取格式化文档路径"""
-        # 使用固定文件名，避免每次生成不同的文件名
+        # 使用带时间戳的文件名，避免文件被占用
+        from datetime import datetime
+        if timestamp is None:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        return os.path.join(cls.OUTPUT_DIR, f"格式化后的测试文档_{timestamp}.docx")
+        
+    @classmethod
+    def get_fixed_formatted_doc_path(cls):
+        """获取固定名称的格式化文档路径"""
         return os.path.join(cls.OUTPUT_DIR, "格式化后的测试文档.docx")
     
     @classmethod

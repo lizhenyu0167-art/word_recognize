@@ -1,5 +1,5 @@
 {
-  "extraction_time": "2025-09-04T12:33:20.618942",
+  "extraction_time": "2025-09-07T21:55:03.464806",
   "template_file": "格式模板.docx",
   "document_defaults": {
     "default_font": "宋体",
@@ -332,6 +332,67 @@
         "cs": "majorEastAsia"
       },
       "alignment": "居中"
+    }
+  },
+  "section_settings": {
+    "section_1": {
+      "header_distance": "42.55pt",
+      "footer_distance": "49.6pt"
+    },
+    "section_2": {
+      "header_distance": "42.55pt",
+      "footer_distance": "49.6pt"
+    },
+    "section_3": {
+      "header_distance": "42.55pt",
+      "footer_distance": "49.6pt"
+    },
+    "section_4": {
+      "header_distance": "42.55pt",
+      "footer_distance": "49.6pt"
+    },
+    "section_5": {
+      "header_distance": "42.55pt",
+      "footer_distance": "49.6pt"
+    }
+  },
+  "headers": {
+    "section_1": {
+      "paragraphs": [
+        {
+          "text": "第**卷第**期\t社会保障评论\tVol.**, No.**",
+          "alignment": "LEFT",
+          "runs": [
+            {
+              "text": "第**卷第**期",
+              "font_name": "仿宋"
+            },
+            {
+              "text": "\t社会保障评论",
+              "font_name": "仿宋"
+            },
+            {
+              "text": "\tVol.**, No.**",
+              "font_name": "仿宋"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "footers": {
+    "section_1": {
+      "paragraphs": [
+        {
+          "text": "",
+          "alignment": "LEFT",
+          "runs": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
     }
   }
 }

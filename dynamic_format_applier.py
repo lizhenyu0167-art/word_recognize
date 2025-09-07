@@ -4,13 +4,15 @@
 动态格式应用器
 功能：基于动态提取的格式信息，将格式模板的格式应用到测试文档
 完全移除硬编码映射规则，实现真正的动态格式应用
+包括页眉页脚格式的应用
 """
 
 import os
 import json
 from docx import Document
-from docx.shared import Pt
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.shared import Pt, RGBColor, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_COLOR_INDEX, WD_UNDERLINE
+from docx.oxml import parse_xml
 from docx.oxml.ns import qn
 from datetime import datetime
 from config import config
@@ -74,7 +76,7 @@ class DynamicFormatApplier:
                 print(f"\n使用原始测试文档: {input_path}")
         
         if output_path is None:
-            output_path = config.get_formatted_doc_path()
+            output_path = config.get_fixed_formatted_doc_path()
         
         print(f"\n正在应用格式到文档: {input_path}")
         
@@ -112,10 +114,13 @@ class DynamicFormatApplier:
                         eastAsia_font = sep.get('eastAsia', '未设置')
                         print(f"  字体分离: 英文={ascii_font}, 中文={eastAsia_font}")
             
-            # 3. 清除段落级别的字体设置，让段落继承样式字体
+            # 3. 应用页眉页脚格式
+            self._apply_header_footer_formats(doc, input_path)
+            
+            # 4. 清除段落级别的字体设置，让段落继承样式字体
             self._clear_paragraph_fonts(doc)
             
-            # 4. 保存格式化后的文档
+            # 5. 保存格式化后的文档
             doc.save(output_path)
             print(f"\n格式化完成！文档已保存为: {output_path}")
             return True
@@ -139,6 +144,17 @@ class DynamicFormatApplier:
                 # 注意：不在这里设置Normal样式的font.name，
                 # 因为这会覆盖后续的字体分离设置
                 # 字体分离设置会在_apply_style_format中处理
+            
+            # 为所有节设置奇偶页不同的页眉页脚 - 在XML级别设置
+            from docx.oxml.ns import qn
+            for section in doc.sections:
+                # 在XML级别设置奇偶页不同
+                section_element = section._sectPr
+                even_and_odd_headers = section_element.find(qn('w:evenAndOddHeaders'))
+                if even_and_odd_headers is None:
+                    even_and_odd_headers = section_element.makeelement(qn('w:evenAndOddHeaders'), {})
+                    section_element.append(even_and_odd_headers)
+            print("已设置文档默认使用奇偶页不同的页眉页脚（XML级别）")
                         
         except Exception as e:
             print(f"应用文档默认设置时出错: {e}")
@@ -452,6 +468,213 @@ class DynamicFormatApplier:
         except Exception as e:
             print(f"清除段落字体设置时出错: {e}")
     
+    def _apply_header_footer_formats(self, doc, test_doc_path):
+        """
+        应用页眉页脚格式
+        根据需求：
+        - 奇数页的页眉内容为格式模板的页眉内容
+        - 偶数页的页眉内容为测试文档的标题一的内容
+        - 页脚设置页码，确保奇偶页都有页码
+        """
+        try:
+            from docx.oxml.ns import qn
+            from docx.oxml import OxmlElement
+            
+            print("\n=== 应用页眉页脚格式 ===")
+            
+            # 加载测试文档以获取标题一内容
+            test_doc = Document(test_doc_path)
+            
+            # 查找标题一内容
+            title_one_content = ""
+            for para in test_doc.paragraphs:
+                if para.style.name == "Heading 1" or para.style.name == "标题 1":
+                    title_one_content = para.text
+                    break
+            
+            if not title_one_content:
+                print("警告：未找到标题一内容，将使用文档标题作为替代")
+                title_one_content = test_doc.core_properties.title or "文档标题"
+            
+            print(f"找到标题一内容: {title_one_content}")
+            
+            # 加载格式模板以获取页眉内容
+            template_doc = Document(self.format_info.get('template_file') or config.TEMPLATE_FILE)
+            
+            # 获取格式模板的页眉内容
+            odd_header_content = ""
+            if len(template_doc.sections) > 0:
+                section = template_doc.sections[0]
+                for para in section.header.paragraphs:
+                    if para.text.strip():
+                        odd_header_content = para.text
+                        break
+            
+            if not odd_header_content:
+                print("警告：未找到格式模板页眉内容，将使用默认页眉")
+                odd_header_content = "社会保障评论"
+            
+            print(f"找到格式模板页眉内容: {odd_header_content}")
+            
+            # 设置奇偶页不同的页眉
+            for i, section in enumerate(doc.sections):
+                # 设置页眉页脚选项
+                section.different_first_page_header_footer = False  # 不使用首页不同的页眉
+                
+                # 设置页眉顶端距离和页脚底端距离
+                section_id = f"section_{i+1}"
+                section_settings = self.format_info.get('section_settings', {}).get(section_id, {})
+                
+                # 设置页眉顶端距离
+                if 'header_distance' in section_settings:
+                    header_distance_str = section_settings['header_distance']
+                    if header_distance_str.endswith('pt'):
+                        header_distance_pt = float(header_distance_str.replace('pt', ''))
+                        section.header_distance = Pt(header_distance_pt)
+                        print(f"设置第{i+1}节页眉顶端距离: {header_distance_pt}pt")
+                else:
+                    section.header_distance = Pt(15)  # 默认设置页眉与正文的距离
+                
+                # 设置页脚底端距离
+                if 'footer_distance' in section_settings:
+                    footer_distance_str = section_settings['footer_distance']
+                    if footer_distance_str.endswith('pt'):
+                        footer_distance_pt = float(footer_distance_str.replace('pt', ''))
+                        section.footer_distance = Pt(footer_distance_pt)
+                        print(f"设置第{i+1}节页脚底端距离: {footer_distance_pt}pt")
+                else:
+                    section.footer_distance = Pt(15)  # 默认设置页脚与正文的距离
+                
+                # 启用奇偶页不同的页眉页脚 - 在XML级别设置
+                section_element = section._sectPr
+                even_and_odd_headers = section_element.find(qn('w:evenAndOddHeaders'))
+                if even_and_odd_headers is None:
+                    even_and_odd_headers = section_element.makeelement(qn('w:evenAndOddHeaders'), {})
+                    section_element.append(even_and_odd_headers)
+                print(f"已启用第{i+1}节的奇偶页不同页眉页脚")
+                
+                # 清除现有页眉内容
+                for para in section.header.paragraphs:
+                    for run in para.runs:
+                        run.text = ""
+                
+                # 设置奇数页页眉
+                if len(section.header.paragraphs) == 0:
+                    para = section.header.add_paragraph()
+                else:
+                    para = section.header.paragraphs[0]
+                    # 清除段落中的所有内容
+                    para.clear()
+                
+                para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                # 确保段落没有缩进
+                para.paragraph_format.left_indent = Inches(0)
+                para.paragraph_format.right_indent = Inches(0)
+                para.paragraph_format.first_line_indent = Inches(0)
+                
+                # 保留原始格式，包括TAB字符
+                # 只去除前导和尾随空格，保留中间的TAB
+                content = odd_header_content.strip()
+                run = para.add_run(content)
+                run.font.size = Pt(10.5)
+                
+                # 设置偶数页页眉
+                if len(section.even_page_header.paragraphs) == 0:
+                    para = section.even_page_header.add_paragraph()
+                else:
+                    para = section.even_page_header.paragraphs[0]
+                    # 清除段落中的所有内容
+                    para.clear()
+                
+                para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                # 确保段落没有缩进
+                para.paragraph_format.left_indent = Inches(0)
+                para.paragraph_format.right_indent = Inches(0)
+                para.paragraph_format.first_line_indent = Inches(0)
+                
+                # 保留原始格式，包括TAB字符
+                # 只去除前导和尾随空格，保留中间的TAB
+                content = title_one_content.strip()
+                run = para.add_run(content)
+                run.font.size = Pt(10.5)
+                
+                # 设置奇数页页脚（页码）
+                # 先清除现有页脚内容
+                for i in range(len(section.footer.paragraphs)):
+                    section.footer.paragraphs[i].clear()
+                
+                # 删除所有段落并创建新段落
+                if len(section.footer.paragraphs) > 0:
+                    para = section.footer.paragraphs[0]
+                    para.clear()
+                else:
+                    para = section.footer.add_paragraph()
+                
+                para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                run = para.add_run("- ")
+                run.font.size = Pt(10.5)
+                
+                # 添加页码域代码（奇数页）
+                fldChar = OxmlElement('w:fldChar')
+                fldChar.set(qn('w:fldCharType'), 'begin')
+                
+                instrText = OxmlElement('w:instrText')
+                instrText.set(qn('xml:space'), 'preserve')
+                instrText.text = " PAGE "
+                
+                fldChar2 = OxmlElement('w:fldChar')
+                fldChar2.set(qn('w:fldCharType'), 'end')
+                
+                r_element = run._r
+                r_element.append(fldChar)
+                r_element.append(instrText)
+                r_element.append(fldChar2)
+                
+                run = para.add_run(" -")
+                run.font.size = Pt(10.5)
+                
+                # 设置偶数页页脚（页码）
+                # 先清除现有页脚内容
+                for i in range(len(section.even_page_footer.paragraphs)):
+                    section.even_page_footer.paragraphs[i].clear()
+                
+                # 删除所有段落并创建新段落
+                if len(section.even_page_footer.paragraphs) > 0:
+                    para = section.even_page_footer.paragraphs[0]
+                    para.clear()
+                else:
+                    para = section.even_page_footer.add_paragraph()
+                
+                para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                run = para.add_run("- ")
+                run.font.size = Pt(10.5)
+                
+                # 添加页码域代码
+                fldChar = OxmlElement('w:fldChar')
+                fldChar.set(qn('w:fldCharType'), 'begin')
+                
+                instrText = OxmlElement('w:instrText')
+                instrText.set(qn('xml:space'), 'preserve')
+                instrText.text = " PAGE "
+                
+                fldChar2 = OxmlElement('w:fldChar')
+                fldChar2.set(qn('w:fldCharType'), 'end')
+                
+                r_element = run._r
+                r_element.append(fldChar)
+                r_element.append(instrText)
+                r_element.append(fldChar2)
+                
+                run = para.add_run(" -")
+                run.font.size = Pt(10.5)
+                
+                print(f"已设置第{i+1}节的奇偶页页眉和页脚页码")
+            
+            print("页眉页脚格式应用完成")
+            
+        except Exception as e:
+            print(f"应用页眉页脚格式时出错: {e}")
+    
     def get_style_summary(self):
         """
         获取样式摘要信息
@@ -464,6 +687,20 @@ class DynamicFormatApplier:
         summary.append(f"提取时间: {self.format_info.get('extraction_time', '未知')}")
         summary.append(f"文档默认字体: {self.format_info.get('document_defaults', {}).get('default_font', '未设置')}")
         summary.append(f"样式数量: {len(self.format_info.get('styles', {}))}")
+        summary.append(f"页眉数量: {len(self.format_info.get('headers', {}))}")
+        summary.append(f"页脚数量: {len(self.format_info.get('footers', {}))}")
+        
+        # 添加节设置摘要
+        section_settings = self.format_info.get('section_settings', {})
+        if section_settings:
+            summary.append("\n节设置:")
+            for section_id, settings in section_settings.items():
+                section_summary = [f"  {section_id}:"]
+                if 'header_distance' in settings:
+                    section_summary.append(f"    页眉顶端距离: {settings['header_distance']}")
+                if 'footer_distance' in settings:
+                    section_summary.append(f"    页脚底端距离: {settings['footer_distance']}")
+                summary.append("\n".join(section_summary))
         
         # 显示主要标题样式的字体分离信息
         styles = self.format_info.get('styles', {})
